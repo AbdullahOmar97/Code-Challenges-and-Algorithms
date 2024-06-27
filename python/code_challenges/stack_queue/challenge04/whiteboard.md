@@ -26,7 +26,7 @@ The queue with elements in reversed order.
 ## Visualization
 
 ![alt text](image.png)
-
+![alt text](<Scan_20240627 (5).jpg>)
 
 
 ## Algorithm
