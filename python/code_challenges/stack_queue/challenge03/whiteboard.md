@@ -27,6 +27,7 @@ Write a function that takes a head of a Stack (represented as a list), deletes t
 
 ## Visualization
 ![alt text](<Screenshot 2024-06-06 055455.png>)
+![alt text](<Scan_20240627 (4).jpg>)
 
 ### Example 1
 Input: [1, 2, 3, 4, 5]
