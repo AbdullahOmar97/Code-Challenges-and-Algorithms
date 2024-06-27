@@ -33,6 +33,25 @@ Determine if a given string containing the characters '(', ')', '{', '}', '[' an
 
 ## Visualization
 
+Initial Stack: []
+
+Process '('  ->  Stack: ['(']
+
+Process ')'  ->  Stack: []
+
+Process '['  ->  Stack: ['[']
+
+Process '{'  ->  Stack: ['[', '{']
+
+Process '('  ->  Stack: ['[', '{', '(']
+
+Process ')'  ->  Stack: ['[', '{']
+
+Process ']'  ->  Stack: ['{']
+
+Process '}'  ->  Stack: []
+
+Final Stack: []
 
 
 ## Algorithm
