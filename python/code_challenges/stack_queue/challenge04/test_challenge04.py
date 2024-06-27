@@ -1,5 +1,5 @@
-import pytest
 from queue import Queue
+import pytest
 from challenge04 import reverse_queue
 
 def test_reverse_queue():
@@ -18,6 +18,7 @@ def test_reverse_queue():
         result.append(reversed_queue.get())
     
     assert result == expected_output
+    print(f"test_reverse_queue passed with result: {result}")
 
 def test_reverse_queue_single_element():
     """
@@ -34,6 +35,7 @@ def test_reverse_queue_single_element():
         result.append(reversed_queue.get())
     
     assert result == expected_output
+    print(f"test_reverse_queue_single_element passed with result: {result}")
 
 def test_reverse_queue_empty():
     """
@@ -49,3 +51,7 @@ def test_reverse_queue_empty():
         result.append(reversed_queue.get())
     
     assert result == expected_output
+    print(f"test_reverse_queue_empty passed with result: {result}")
+
+if __name__ == "__main__":
+    pytest.main()
