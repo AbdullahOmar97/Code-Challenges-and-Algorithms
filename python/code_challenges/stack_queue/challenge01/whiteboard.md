@@ -31,7 +31,7 @@ Implement a first in first out (FIFO) queue using only two stacks. The implement
     - `empty()` should return `true`.
 
 ## Visualization
-
+![alt text](<Scan_20240627 (3).jpg>)
 
 1. **Initialization**:
     - Two stacks `stack1` and `stack2` are empty.
