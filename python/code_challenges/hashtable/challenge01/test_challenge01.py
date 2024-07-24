@@ -1,7 +1,6 @@
 # Write your test here
 # test_challenge01.py
 
-import pytest
 from challenge01 import TreeNode, two_sum_bst
 
 def test_example_1():
@@ -17,7 +16,7 @@ def test_example_1():
     print(f"Testing for k = {k}")
     result = two_sum_bst(root, k)
     print(f"Result: {result}")
-    assert result
+    assert result, "Expected two nodes to sum up to 9"
     print("test_example_1 passed\n")
 
 def test_example_2():
@@ -33,7 +32,7 @@ def test_example_2():
     print(f"Testing for k = {k}")
     result = two_sum_bst(root, k)
     print(f"Result: {result}")
-    assert not result
+    assert not result, "Expected no two nodes to sum up to 4"
     print("test_example_2 passed\n")
 
 def test_empty_tree():
@@ -45,5 +44,13 @@ def test_empty_tree():
     print(f"Testing for k = {k}")
     result = two_sum_bst(root, k)
     print(f"Result: {result}")
-    assert not result
+    assert not result, "Expected no two nodes to sum up to 5 in an empty tree"
     print("test_empty_tree passed\n")
+
+def main():
+    test_example_1()
+    test_example_2()
+    test_empty_tree()
+
+if __name__ == "__main__":
+    main()
